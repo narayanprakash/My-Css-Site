@@ -1,0 +1,123 @@
+/* ***************************elements css************************* */
+h1{
+  margin: 0;
+  margin-top: 50px;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive,sans-serif;
+  color: #66BFBF;
+
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  border-color: #EAF6F6;
+}
+h2{
+  font-family: 'Montserrat', cursive, sans-serif;
+  /* font-size: 2.5; */
+  color:#66BFBF;
+}
+h3{
+  color: #11999E;
+}
+body{
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+p{
+line-height: 1.8;
+}
+a{
+   color: #11999E;
+   font-family: 'Montserrat', cursive, sans-serif;
+   margin: 10px 20px;
+   text-decoration: none;
+}
+a:hover
+{
+  color: #EAF6F6;
+}
+/* **************************class element css***************************** */
+.profile-img{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+.dart-img1{
+  width:25%;
+  height: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 3rem auto;
+  text-align: left;
+}
+.dart-img2{
+  width:25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.intro-para{
+
+}
+.top-cloud{
+  position: relative;
+  left:350px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 200px
+}
+.intro{
+width: 30%;
+margin: auto;
+}
+.top-container{
+  background-color: #e8ffff;
+  margin: 0;
+  padding: 50px 0 0 0;
+
+}
+.full{
+  text-decoration: underline;
+}
+.middle-container{
+margin: 50px auto;
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  color: #11999E;
+  margin: 1rem auto 0 auto;
+  padding: 2rem;
+}
+.copy-right{
+  color: #EAF6F6;
+  font-size: 0.5rem;
+  padding: 20px 0 0;
+}
+.btn:link, .btn:visited{
+  margin-top: 20px;
+  background-color: #66BFBF;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn:hover, .btn:active {
+  background-color: #213e3b;
+}
+}
+/* *************************id element css****************************** */
